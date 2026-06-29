@@ -1,1 +1,10 @@
-{}
+{
+  "Rayconne_store": [
+    {
+      "id": 1782768334598,
+      "descricao": "aluguel da loja",
+      "valor": 500.0,
+      "vencimento": "2026-06-30"
+    }
+  ]
+}
