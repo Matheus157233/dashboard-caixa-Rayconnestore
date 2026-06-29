@@ -71,13 +71,13 @@ def deletar_lembrete(lembrete_id: int, usuario: str) -> bool:
 def _h(s): return hashlib.sha256(s.encode()).hexdigest()
 
 CLIENTES = {
-    "demo_emp": {
-        "senha_hash": _h("demo789"), "nome": "Empresa Demo Empresarial",
+    "Rayconne_store": {
+        "senha_hash": _h("Rayconne2026"), "nome": "Empresa Demo Empresarial",
         "sheet_url": "https://docs.google.com/spreadsheets/d/1C9nreFqzailyyoilLe1OqJ-21uW5p_8UP6lMSaUn1-s/export?format=csv&gid=0",
         "cor": "#7c3aed", "plano": "empresarial", "meta_mensal": 30000,
         "alerta_saidas_pct": 60,
         "filiais": {
-            "Matriz": "https://docs.google.com/spreadsheets/d/1C9nreFqzailyyoilLe1OqJ-21uW5p_8UP6lMSaUn1-s/export?format=csv&gid=0",
+            "Matriz": "https://docs.google.com/spreadsheets/d/1Ng3IxIxr5E2oZOaLYN7RdTbxHNguQ1rHYC9ELkq7BT4/export?format=csv&gid=0",
             "Filial 1": {},
         },
     },
